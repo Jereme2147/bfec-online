@@ -2051,6 +2051,9 @@ html h3 {
 
 .single-section div {
   width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .single-section h2 {
