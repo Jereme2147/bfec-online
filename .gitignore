@@ -2,7 +2,7 @@
 css/
 ####### files
 *.scss
-style.css
+##style.css
 style.css.map
 *.html
 .DS_Store
