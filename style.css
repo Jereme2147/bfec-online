@@ -2049,6 +2049,10 @@ html h3 {
           align-items: center;
 }
 
+.single-section div {
+  width: 100%;
+}
+
 .single-section h2 {
   width: 100%;
   text-align: center;
