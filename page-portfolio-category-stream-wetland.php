@@ -2,7 +2,8 @@
     get_header();
 ?>
 <div class="banner-div">
-
+    <img src="<?php echo get_template_directory_uri()?>/img/stream-wetland-banner-1728x560.jpg" class="desktop-img"alt="">
+    <img src="<?php echo get_template_directory_uri()?>/img/stream-wetland-banner900x292.jpg"class="mobile-img" alt="">
 </div>
 <?php
     include get_theme_file_path( '/portfolio-menu.php' );
@@ -37,15 +38,15 @@
                         </p>
                     </div>
                 <div class="desktop-read-more-btn" id="desktop-stream-restoration-readmore">
-                    <a href="<?php echo the_permalink();?>" target="_blank"><h3>Read More</h3></a>  
+                    <a href="<?php echo the_permalink();?>"><h3>Read More</h3></a>  
                 </div>
                 </div>
                 <div class="landing-image-div">
-                    <img src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>" alt="" class="desktop-img side-load">
-                    <img src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>" alt="" class="mobile-img side-load">
+                    <img src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>" alt="landscape photo" class="desktop-img side-load">
+                    <img src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>" alt="landscape photo" class="mobile-img side-load">
                 </div>
                 <div class="read-more-btn" id="stream-restoration-readmore">
-                    <a href="<?php echo the_permalink();?>" target="_blank"><h3>Read More</h3></a>  
+                    <a href="<?php echo the_permalink();?>"><h3>Read More</h3></a>  
                 </div>
             </div>
         </section>

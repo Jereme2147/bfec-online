@@ -1989,9 +1989,6 @@ html h3 {
 
 .generic-section-style div {
   width: 90%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -2033,6 +2030,16 @@ html h3 {
   }
 }
 
+.generic-section-style img {
+  width: 80%;
+}
+
+@media (min-width: 950px) {
+  .generic-section-style img {
+    width: 80%;
+  }
+}
+
 .nav-selected {
   border-bottom: 2px solid #F0F3F8;
 }
@@ -2059,16 +2066,25 @@ html h3 {
 
 .single-section div {
   width: 100%;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (min-width: 950px) {
+  .single-section div {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
 }
 
 .single-section h2 {

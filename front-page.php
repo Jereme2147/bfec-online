@@ -86,8 +86,8 @@ endwhile;
                     </div>
                 </div>
                 <div class="landing-image-div">
-                    <img src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>" alt="" class="desktop-img side-load">
-                    <img src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>" alt="" class="mobile-img side-load">
+                    <img src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>" alt="news for BFEC" class="desktop-img side-load">
+                    <img src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>" alt="news for BFEC" class="mobile-img side-load">
                 </div>
                 <div class="read-more-btn" id="stream-restoration-readmore">
                         <a href="<?php echo the_permalink();?>" target="_blank"><h3>Read More</h3></a>  
