@@ -20,6 +20,7 @@ single.php
             echo the_content();
         ?>
         </div>
+
     </section>
 
 
