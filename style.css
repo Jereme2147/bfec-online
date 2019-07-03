@@ -311,6 +311,7 @@ nav {
           align-items: flex-end;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  font-family: "Roboto", sans-serif;
 }
 
 #desktop-menu ul {
@@ -1936,6 +1937,10 @@ html h3 {
   width: 100%;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+.no-banner-spacer {
+  height: 75px;
 }
 
 @media (min-width: 950px) {
