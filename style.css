@@ -1906,6 +1906,10 @@ html h3 {
   border-right: 3px solid #5A86BF;
 }
 
+.image-slide {
+  display: none;
+}
+
 @media (min-width: 950px) {
   .mobile-img {
     display: none;

@@ -65,3 +65,7 @@ window.addEventListener('scroll', function (event) {
         };
     }
 });
+
+jQuery(document).ready(function($) {
+    $('.image-slide').slideDown('slow');
+})

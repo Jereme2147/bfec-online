@@ -12,6 +12,7 @@ function bfec_setup() {
     //version number after finished developement. 
     wp_enqueue_style('fontawesome', 'https://use.fontawesome.com/releases/v5.7.2/css/all.css');
     wp_enqueue_script('main', get_theme_file_uri('/js/main.js'), NULL, microtime(), true);
+    wp_enqueue_script("jquery");
 
 }
 

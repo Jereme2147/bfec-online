@@ -3,10 +3,9 @@
 ?>
 <div class="banner-div">
     <!-- dynamic should be loaded from WP -->
-    <img src="<?php echo get_template_directory_uri();?>/img/j-hook-1900.jpg" class="desktop-img"alt="">
-    <img src="<?php echo get_template_directory_uri();?>/img/j-hook-600.jpg"class="mobile-img" alt="">
+    <img src="<?php echo get_template_directory_uri();?>/img/portfolio-banner-1700x1138" class="desktop-img image-slide"alt="">
+    <!-- <img src="<?php// echo get_template_directory_uri();?>/img/j-hook-600.jpg"class="mobile-img" alt=""> -->
 </div>
-page-portfolio.php
 <?php
     //include the menu
     include get_theme_file_path( '/portfolio-menu.php' );
