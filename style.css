@@ -414,6 +414,10 @@ nav {
   }
 }
 
+#landing-top-slide {
+  display: none;
+}
+
 .landing-card {
   display: -webkit-box;
   display: -ms-flexbox;
