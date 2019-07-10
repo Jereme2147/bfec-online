@@ -877,12 +877,6 @@ footer {
   margin: 0;
 }
 
-@media (min-width: 950px) {
-  #footer-phone {
-    border-bottom: 1px solid #F0F3F8;
-  }
-}
-
 #footer-social-designer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1376,7 +1370,7 @@ html h3 {
     display: flex;
     width: 325px;
     background-size: cover;
-    height: 185px;
+    height: 183px;
     overflow: hidden;
     background: black;
   }
