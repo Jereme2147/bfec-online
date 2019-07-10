@@ -2,6 +2,7 @@
     <footer class="footer-style">
         <div id="footer-phone">
             <h2>423-727-4476</h2>
+            <p>10565 Hwy 421. Trade, TN 37691</p>
         </div>
         <div id="footer-links-container">
             <div id="footer-links-copyright" class="footer-style">

@@ -37,8 +37,8 @@
                 </div>
                 </div>
                 <div class="landing-image-div">
-                    <img src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>" alt="" class="desktop-img side-load">
-                    <img src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>" alt="" class="mobile-img side-load">
+                    <img src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>" alt="image showing example bfec project" class="desktop-img side-load">
+                    <img src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>" alt="image showing example bfec project" class="mobile-img side-load">
                 </div>
                 <div class="read-more-btn" id="stream-restoration-readmore">
                         <a href="<?php echo the_permalink();?>" target="_blank"><h3>Read More</h3></a>  
@@ -51,7 +51,7 @@ $postCount = $postCount + 1;
 endwhile;
 ?>
 <div class="landing-divider">
-    <img src= "<?php echo get_template_directory_uri();?>/img/logo.png" alt="">
+    <img src= "<?php echo get_template_directory_uri();?>/img/logo.png" alt="News article relavant to BFEC">
     <h2>BFEC News</h2>
 </div>
 
@@ -82,7 +82,7 @@ endwhile;
                         </p>
                     </div>
                     <div class="desktop-read-more-btn" id="desktop-stream-restoration-readmore">
-                        <a href="<?php echo the_permalink();?>" target="_blank"><h3>Read More</h3></a>  
+                        <a href="<?php echo the_permalink();?>"><h3>Read More</h3></a>  
                     </div>
                 </div>
                 <div class="landing-image-div">
@@ -90,7 +90,7 @@ endwhile;
                     <img src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>" alt="news for BFEC" class="mobile-img side-load">
                 </div>
                 <div class="read-more-btn" id="stream-restoration-readmore">
-                        <a href="<?php echo the_permalink();?>" target="_blank"><h3>Read More</h3></a>  
+                        <a href="<?php echo the_permalink();?>" ><h3>Read More</h3></a>  
                 </div>
             </div>
         </div>         

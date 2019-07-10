@@ -26,7 +26,7 @@
                         $catname =$category->cat_name;
                         echo $catname;
     } ?></span>
-        <a href="<?php echo the_permalink();?>" target="_BLANK"> <img 
+        <a href="<?php echo the_permalink();?>"> <img 
             src="<?php echo the_post_thumbnail_url(); ?>" alt="portfolio image"></a>
     </div>
     <?php

@@ -863,11 +863,18 @@ footer {
 
 #footer-phone {
   text-align: center;
+  border-bottom: 1px solid #F0F3F8;
 }
 
 #footer-phone h2 {
   margin: 0;
-  padding-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+#footer-phone p {
+  font-family: "Roboto", sans-serif;
+  padding: 5px 0;
+  margin: 0;
 }
 
 @media (min-width: 950px) {
@@ -904,6 +911,7 @@ footer {
       -ms-flex-pack: center;
           justify-content: center;
   font-size: 30px;
+  font-family: "Raleway", sans-serif;
 }
 
 #footer-social ul i {
@@ -912,6 +920,10 @@ footer {
 
 .footer-style {
   color: #F0F3F8;
+}
+
+.footer-style h1, .footer-style h2, .footer-style h3, .footer-style p, .footer-style ul, .footer-style li {
+  font-family: "Raleway", sans-serif;
 }
 
 .footer-style ul {
@@ -1362,7 +1374,7 @@ html h3 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 30%;
+    width: 325px;
     background-size: cover;
     height: 185px;
     overflow: hidden;

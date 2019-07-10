@@ -45,7 +45,7 @@
     setup_postdata($post)
     ?>
         <div class="about-employee">
-        <a href="<?php the_permalink()?>" target="_BLANK">
+        <a href="<?php the_permalink()?>" >
             <img src="<?php echo the_post_thumbnail_url(); ?>" alt="">
             <h4><?php echo the_title(); echo the_post('orderby');?></h4>
             <p><?php 
@@ -80,7 +80,7 @@
         while ($the_query -> have_posts()) : $the_query -> the_post(); 
     ?>
     <div class="opportunities-div">
-        <a href="<?php the_permalink()?>" target="_BLANK">
+        <a href="<?php the_permalink()?>">
             <img src="<?php echo the_post_thumbnail_url(); ?>" alt="">
             <h4><?php echo the_title();?></h4>
             <p><?php echo wp_trim_words(get_the_excerpt(), 20); ?></p>

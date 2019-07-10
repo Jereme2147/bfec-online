@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="full delivery ecological restoration projects to the mountain areas of NC, TN, & VA. consultants, biologists, and engineers are able to provide design & build services from assessment and design through implementation on various projects ranging from mitigation banking to private or grant funded restoration. ">
     <?php wp_head();?>
-    <title>Brusy Fork Environment Consulting, inc.</title>
+    <!-- <title>Brusy Fork Environment Consulting, inc.</title> -->
 </head>
 <body>
     <nav>

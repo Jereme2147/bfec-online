@@ -7,7 +7,7 @@
     <img src="<?php echo get_template_directory_uri()?>/img/about-600.png"class="mobile-img" alt="">
 </div>
 <?php
- $the_query = new WP_Query( array('posts_per_page'=>4,
+ $the_query = new WP_Query( array('posts_per_page'=>10,
                                  'post_type'=>'post',
                                  'paged' => get_query_var('paged') ? get_query_var('paged') : 1) 
                             ); 
@@ -19,7 +19,7 @@
         <a href="<?php echo the_permalink();?>">
             <h2><?php echo the_title();?></h2>
         </a>
-        <a href="<?php echo the_permalink();?>" target="_BLANK"> <img 
+        <a href="<?php echo the_permalink();?>"> <img 
             src="<?php echo the_post_thumbnail_url(); ?>" alt="portfolio image"></a>
     </div>
 
