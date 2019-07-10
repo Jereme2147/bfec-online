@@ -1322,6 +1322,7 @@ html h3 {
 @media (min-width: 950px) {
   #portfolio-thumb {
     width: 85%;
+    max-width: 1290px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
