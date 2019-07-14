@@ -86,7 +86,7 @@
 ?>
 <div class="banner-div">
     <!-- dynamic should be loaded from WP -->
-    <img src="<?php echo get_template_directory_uri();?>/img/portfolio-banner-1700x1138" class="desktop-img image-slide"alt="">
+    <img src="<?php echo get_template_directory_uri();?>/img/portfolio-banner-1700.jpg" class="desktop-img image-slide"alt="">
 </div>
 <?php
     //include the menu

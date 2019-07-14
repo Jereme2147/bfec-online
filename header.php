@@ -9,6 +9,8 @@
     <!-- <title>Brusy Fork Environment Consulting, inc.</title> -->
 </head>
 <body>
+    <!-- moves header image below the nav to begin -->
+<div class="no-banner-spacer"></div>
     <nav>
         <div class="mobile-nav" id="mobile-nav"> 
             <div id="mobile-nav-title">
