@@ -1006,7 +1006,7 @@ html h3 {
   }
 }
 
-#mission-statement {
+.mission-statement {
   Position: absolute;
   top: 75px;
   width: 100%;
@@ -1014,60 +1014,69 @@ html h3 {
   text-shadow: 1px 1px 2px #5A86BF;
 }
 
-#mission-statement h3 {
+.mission-statement h3 {
   font-family: "Roboto", sans-serif;
   padding: 30px 30px 10px 30px;
 }
 
-#mission-statement p {
+.mission-statement p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: "Raleway", sans-serif;
   padding: 0 30px;
 }
 
 @media (min-width: 950px) {
-  #mission-statement {
+  .mission-statement {
     top: 200px;
     width: 80%;
   }
-  #mission-statement h3 {
+  .mission-statement h3 {
     font-size: 50px;
   }
-  #mission-statement P {
+  .mission-statement P {
     font-size: 40px;
   }
 }
 
 @media (min-width: 600px) and (max-width: 949px) {
-  #mission-statement {
+  .mission-statement {
     width: 80%;
     top: 75px;
   }
-  #mission-statement h3 {
+  .mission-statement h3 {
     font-size: 30px;
   }
-  #mission-statement P {
+  .mission-statement P {
     font-size: 25px;
   }
 }
 
 @media (max-width: 350px) {
-  #mission-statement {
+  .mission-statement {
     top: 50px;
   }
-  #mission-statement h3 {
+  .mission-statement h3 {
     padding: 30px 30px 5px 30px;
   }
 }
 
 @media (min-width: 950px) and (max-width: 1060px) {
-  #mission-statement {
+  .mission-statement {
     width: 80%;
     top: 200px;
   }
-  #mission-statement h3 {
+  .mission-statement h3 {
     font-size: 40px;
   }
-  #mission-statement P {
+  .mission-statement P {
     font-size: 35px;
   }
 }

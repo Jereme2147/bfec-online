@@ -84,6 +84,11 @@
     );
     get_header();
 ?>
+<div class="mission-statement">
+    <p>
+        Brushy Fork Environmental Consulting offers a broad array of environmental services.
+    </p>
+</div>
 <div class="banner-div">
     <!-- dynamic should be loaded from WP -->
     <img src="<?php echo get_template_directory_uri();?>/img/portfolio-banner-1700.jpg" class="desktop-img image-slide"alt="">

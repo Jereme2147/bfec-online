@@ -1,7 +1,7 @@
 <?php
     get_header();
 ?>
-<div id="mission-statement">
+<div class="mission-statement">
     <p>
         <quote>"We’ve made it our mission to <strong>enhance our natural resources</strong> through the 
         <strong>restoration and conservation</strong> of our aquatic ecosystems and their surrounding lands."</quote>
