@@ -59,7 +59,7 @@
                                 echo $my_value{0};
                                 };
                             }
-                             echo get_post_custom_values('position');
+                            //  echo get_post_custom_values('position');
                 ?> </p>
         </a>
     </div>
