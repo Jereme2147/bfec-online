@@ -7,7 +7,7 @@
         <strong>restoration and conservation</strong> of our aquatic ecosystems and their surrounding lands."</quote>
     </p>
 </div>
-<div class="banner-div">
+<div class="banner-div image-slide">
     <!-- dynamic should be loaded from WP -->
     <img src="<?php echo get_template_directory_uri()?>/img/about-1500.png" class="desktop-img"alt="">
     <img src="<?php echo get_template_directory_uri()?>/img/about-600.png"class="mobile-img" alt="">

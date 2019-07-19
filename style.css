@@ -1007,6 +1007,7 @@ html h3 {
 }
 
 .mission-statement {
+  display: none;
   Position: absolute;
   top: 75px;
   width: 100%;

@@ -3,7 +3,10 @@
 ?>
 <div id="landing-top-slide">
     <?php
-    if ( function_exists( 'soliloquy' ) ) { soliloquy( 'front-page', 'slug' ); };
+    //if ( function_exists( 'soliloquy' ) ) { soliloquy( 'front-page', 'slug' ); };
+    ?>
+    <?php 
+        echo do_shortcode('[smartslider3 slider=2]');
     ?>
 </div>
 
