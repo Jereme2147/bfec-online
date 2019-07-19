@@ -1970,6 +1970,7 @@ html h3 {
 
 @media (min-width: 950px) {
   .no-banner-spacer {
+    display: none;
     height: 80px;
   }
 }
