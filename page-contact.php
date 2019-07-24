@@ -32,7 +32,7 @@
         <h3>Brushy Fork Environmental Consulting, Inc</h3>
         <p>10565 Hwy 421</p>
         <p>Trade, TN 37691</p>
-        <p><a href="#">info@bfec</a></p>
+        <p><a href="mailto:info@bfec.org?Subject=info">info@bfec</a></p>
         <p>Connect with us on any of the provided social networks or a quick message.</p>
     </div>
 </section>
