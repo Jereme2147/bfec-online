@@ -5,9 +5,9 @@
             $post_id = get_the_id();
             // echo the_content();
 ?>
-<div class="no-banner-spacer">
+<!-- <div class="no-banner-spacer">
 
-</div>
+</div> -->
 <div class="staff-single-container">
     <div class="staff-single-title-image-bio">
         <div class="staff-single-name-title">
