@@ -9,20 +9,20 @@
     <img src="<?php echo get_template_directory_uri()?>/img/contact-1700x956-mobile.jpg" class="mobile-img"alt="image of a restored stream">
 </div>
 <div id="contact-social">
-    <a href="#" target="_BLANK">
-        <img src="<?php echo get_template_directory_uri()?>/img/facebook.svg" alt="">
+    <a href="https://www.facebook.com/Brushy-Fork-Environmental-Consulting-Inc-111236192315890/" target="_BLANK">
+        <img src="<?php echo get_template_directory_uri()?>/img/facebook.svg" alt="link to facebook page">
     </a>
-    <a href="#" target="_BLANK">
-        <img src="<?php echo get_template_directory_uri()?>/img/linkedin.svg" alt="">
+    <a href="https://www.linkedin.com/in/adamwilliamsbfec/" target="_BLANK">
+        <img src="<?php echo get_template_directory_uri()?>/img/linkedin.svg" alt="linkedin page">
     </a>
-    <a href="#" target="_BLANK">
-        <img src="<?php echo get_template_directory_uri()?>/img/mail.svg" alt="">
+    <a href="mailto:info@bfec.org?Subject=info" target="_top">
+        <img src="<?php echo get_template_directory_uri()?>/img/mail.svg" alt="direct email">
     </a>
-    <a href="#" target="_BLANK">
-        <img src="<?php echo get_template_directory_uri()?>/img/phone.svg" alt="">
+    <a href="tel:1-423-727-4476" target="_BLANK">
+        <img src="<?php echo get_template_directory_uri()?>/img/phone.svg" alt="call">
     </a>
-    <a href="#" target="_BLANK">
-        <img src="<?php echo get_template_directory_uri()?>/img/instagram.svg" alt="">
+    <a href="https://www.instagram.com/brushyforkenvt/" target="_BLANK">
+        <img src="<?php echo get_template_directory_uri()?>/img/instagram.svg" alt="instagram">
     </a>
 </div>
 <div id=contact-section-divs> 
