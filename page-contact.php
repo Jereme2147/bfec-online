@@ -3,8 +3,10 @@
 ?>
 <div class="banner-div">
     <!-- dynamic should be loaded from WP -->
-    <img src="<?php echo get_template_directory_uri()?>/img/contact-banner-1900.jpg" class="desktop-img"alt="">
-    <img src="<?php echo get_template_directory_uri()?>/img/contact-banner-900.jpg"class="mobile-img" alt="">
+    <!-- <img src="<?php// echo get_template_directory_uri()?>/img/contact-banner-1900.jpg" class="desktop-img"alt="">
+    <img src="<?php //echo get_template_directory_uri()?>/img/contact-banner-900.jpg"class="mobile-img" alt=""> -->
+    <img src="<?php echo get_template_directory_uri()?>/img/contact-1700x956.jpg" class="desktop-img"alt="image of a restored stream">
+    <img src="<?php echo get_template_directory_uri()?>/img/contact-1700x956-mobile.jpg" class="mobile-img"alt="image of a restored stream">
 </div>
 <div id="contact-social">
     <a href="#" target="_BLANK">

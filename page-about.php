@@ -9,8 +9,7 @@
 </div>
 <div class="banner-div image-slide">
     <!-- dynamic should be loaded from WP -->
-    <img src="<?php echo get_template_directory_uri()?>/img/about-1500.png" class="desktop-img"alt="">
-    <img src="<?php echo get_template_directory_uri()?>/img/about-600.png"class="mobile-img" alt="">
+    <img src="<?php echo get_template_directory_uri()?>/img/about-1500x590.jpg" class="desktop-img"alt="">
 </div>
 <section  id="about-div">
     <div>
