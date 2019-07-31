@@ -3,7 +3,7 @@
 ?>
 <div class="banner-div">
     <!-- dynamic should be loaded from WP -->
-    <img src="<?php echo get_template_directory_uri()?>/img/about-1500.png" class="desktop-img image-slide"alt="">
+    <img src="<?php echo get_template_directory_uri()?>/img/about-1500x590.jpg" class="desktop-img image-slide"alt="">
 
 </div>
 <?php

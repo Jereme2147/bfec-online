@@ -20,7 +20,7 @@
             }
         ?>
     </section>
-    Single - opportunities 
+    
 <?php 
     get_footer();
 ?>
