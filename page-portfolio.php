@@ -39,7 +39,7 @@
        3 => new Tile(
            "Mitigation",
            get_template_directory_uri() . "/img/portfolio/MITIGATION1-325x183.jpg",
-           site_url() . "/portfolio-items/portfolio-category-mitigation/"
+           site_url() . "/portfolio-category-mitigation/"
        ),
        4 => new Tile(
            "Stream and Wetland Delineations",
@@ -69,7 +69,7 @@
         9 => new Tile(
            "Mitigation",
            get_template_directory_uri() . "/img/portfolio/MITIGATION2-325x183.jpg",
-           site_url() . "/portfolio-items/portfolio-category-mitigation/"
+           site_url() . "/portfolio-category-mitigation/"
        ),
         10 => new Tile(
            "Stream and Wetland Delineations",
