@@ -4,9 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="full delivery ecological restoration projects to the mountain areas of NC, TN, & VA. consultants, biologists, and engineers are able to provide design & build services from assessment and design through implementation on various projects ranging from mitigation banking to private or grant funded restoration. ">
+    <?php if(is_page('portfolio')){
+        echo '<meta name="description" content="Environmental Site Management and Environmental Consulting Portfolio | Projects | Job Sites"';
+    } elseif (is_page('about')) {
+        echo '<meta name="description" content="Our Environmental Consultants | Biologists | Engineers">';
+    } elseif(is_page('news')) {
+        echo '<meta name="description" content="Ecological Resoration Projects and Environmental Site Management News">';
+    } elseif(is_page('contact')) {
+        echo '<meta name="description" content="Contact us for Environmental Consulting Firm | Environmental site management | Environmental Consultant">';
+    }else {
+        echo '<meta name="description" content="full delivery ecological restoration projects to the mountain areas of NC, TN, & VA. Environmental consultants, biologists, and engineers are able to provide design & build services from assessment and design through implementation on various projects ranging from mitigation banking to private or grant funded restoration. ">';
+    }
+    ?>
     <?php wp_head();?>
-    <!-- <title>Brusy Fork Environment Consulting, inc.</title> -->
 </head>
 <body>
     <!-- moves header image below the nav to begin -->
@@ -56,7 +66,7 @@
                     </ul>
                 </div>
             </div>
-            <div id="deskt"op-logo">
+            <div id="desktop-logo">
                 <img src= "<?php echo get_template_directory_uri();?>/img/logo.png" alt="bfec logo">
             </div>
         </div>

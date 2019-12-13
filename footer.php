@@ -30,7 +30,7 @@
             <div id="footer-social-designer" class="footer-style">
 
                 <div id="footer-copyright">
-                    <p>Copyright &copy 2019 Brushy Fork Environmental Consulting, Inc.
+                    <p>Copyright &copy; 2019 Brushy Fork Environmental Consulting, Inc.
                         All Rights Reserved. </p>
                 </div>
                 <div id="footer-designer">
