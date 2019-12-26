@@ -8,21 +8,27 @@
             <div id="footer-links-copyright" class="footer-style">
                 <div id="footer-links">
                     <ul>
-                        <a href="<?php echo site_url()?>/about">
-                            <li>About Us</li>
-                        </a>
-                        <a href="<?php echo site_url()?>/portfolio">
-                            <l i>Portfolio</li>
-                        </a>
-                        <a href="<?php echo site_url()?>/news">
-                            <li>News</li>
-                        </a>
-                        <a href="<?php echo site_url()?>/contact">
-                            <li>Contact Us</li>
-                        </a>
-                        <a href="#">
-                            <li><i class="fas fa-search"></i></li>
-                        </a>
+                        <li>
+                            <a href="<?php echo site_url()?>/about">
+                                About Us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="<?php echo site_url()?>/portfolio">
+                                Portfolio
+                            </a>
+                        </li>
+                        <li>
+                             <a href="<?php echo site_url()?>/news">
+                                News
+                             </a>
+                        </li>
+                       <li>
+                           <a href="<?php echo site_url()?>/contact">
+                                Contact Us
+                            </a>
+                       </li>
+                        
                     </ul>
                 </div>
 

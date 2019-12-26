@@ -21,12 +21,12 @@
     $postCount = 0; //variable to push sections left or right
     while ($the_query -> have_posts()) : $the_query -> the_post(); 
     ?>
-    <section class="<?php if($postCount % 2 == 1) {
+    <article  class="<?php if($postCount % 2 == 1) {
                             echo 'card-right section-right ';
                             } else {
                                 echo 'card-left section-left ';
                             }
-        ?>landing-section" id="landing-section-1">
+        ?>landing-section">
             <div class="landing-card">
                 <div class="landing-card-title">
                         <h2><?php the_title(); ?></h2>
@@ -35,7 +35,7 @@
                            <?php echo wp_trim_words(get_the_excerpt(), 50);?>
                         </p>
                     </div>
-                <div class="desktop-read-more-btn" id="desktop-stream-restoration-readmore">
+                <div class="desktop-read-more-btn">
                         <a href="<?php echo the_permalink();?>" target="_blank"><h3>Read More</h3></a>  
                 </div>
                 </div>
@@ -43,11 +43,11 @@
                     <img src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>" alt="image showing example bfec project" class="desktop-img side-load">
                     <img src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>" alt="image showing example bfec project" class="mobile-img side-load">
                 </div>
-                <div class="read-more-btn" id="stream-restoration-readmore">
+                <div class="read-more-btn">
                         <a href="<?php echo the_permalink();?>" target="_blank"><h3>Read More</h3></a>  
                 </div>
             </div>
-        </section>
+        </article>
 
 <?php
 $postCount = $postCount + 1;
@@ -60,7 +60,7 @@ endwhile;
 
 <section>
 <?php
- $the_query = new WP_Query( array('posts_per_page'=>6,
+ $the_query = new WP_Query( array('posts_per_page'=>2,
                                  'post_type'=>'post',
                                 //  'meta_key' => 'position',
                                 //  'orderby' => 'meta_value_num',
@@ -70,12 +70,12 @@ endwhile;
     while ($the_query -> have_posts()) : $the_query -> the_post(); 
     ?>
 <!-- news / posts go here -->
-        <div class="<?php if($postCount % 2 == 1) {
+        <article class="<?php if($postCount % 2 == 1) {
                             echo 'card-right section-right ';
                             } else {
                                 echo 'card-left section-left ';
                             }
-        ?>landing-section" id="landing-section-1">
+        ?>landing-section">
             <div class="landing-card">
                 <div class="landing-card-title">
                         <h2><?php the_title(); ?></h2>
@@ -84,7 +84,7 @@ endwhile;
                            <?php echo wp_trim_words(get_the_excerpt(), 50);?>
                         </p>
                     </div>
-                    <div class="desktop-read-more-btn" id="desktop-stream-restoration-readmore">
+                    <div class="desktop-read-more-btn">
                         <a href="<?php echo the_permalink();?>"><h3>Read More</h3></a>  
                     </div>
                 </div>
@@ -92,11 +92,11 @@ endwhile;
                     <img src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>" alt="news for BFEC" class="desktop-img side-load">
                     <img src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>" alt="news for BFEC" class="mobile-img side-load">
                 </div>
-                <div class="read-more-btn" id="stream-restoration-readmore">
-                        <a href="<?php echo the_permalink();?>" ><h3>Read More</h3></a>  
+                <div class="read-more-btn">
+                        <a href="<?php echo the_permalink();?>" ><h3>Read More</h3></a>
                 </div>
             </div>
-        </div>         
+        </article>         
 <!-- end news / posts -->
 <?php
         $postCount = $postCount + 1;

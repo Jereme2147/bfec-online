@@ -32,11 +32,21 @@
             </div>
             <div class="mobile-menu-open" id="mobile-menu-open">
                     <ul>
-                        <a href="<?php echo site_url()?>"><li>Home</li></a>
-                        <a href="<?php echo site_url()?>/about"><li>About</li></a>
-                        <a href="<?php echo site_url()?>/portfolio"><li>Portfolio</li></a>
-                        <a href="<?php echo site_url()?>/news"><li>News</li></a>
-                        <a href="<?php echo site_url()?>/contact"><li>Contact</li></a>
+                        <li>
+                            <a href="<?php echo site_url()?>">Home</a>
+                        </li>
+                        <li>
+                            <a href="<?php echo site_url()?>/about">About</a>
+                        </li>
+                        <li>
+                            <a href="<?php echo site_url()?>/portfolio">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="<?php echo site_url()?>/news">News</a>
+                        </li>
+                        <li>
+                            <a href="<?php echo site_url()?>/contact"><li>Contact</li></a>
+                        </li>
                     </ul>
             </div>
         </div>
@@ -47,22 +57,30 @@
                 </div>
                 <div id="desktop-menu">
                     <ul>
-                        <a <?php if(is_page('about')) echo 'class="nav-selected"'?>
+                        <li>
+                            <a <?php if(is_page('about')) echo 'class="nav-selected"'?>
                             href="<?php echo site_url()?>/about">
-                            <li>About</li>
-                        </a>
-                        <a <?php if(is_page('portfolio')) echo 'class="nav-selected"'?>
+                                About
+                            </a>
+                        </li>
+                        <li>
+                            <a <?php if(is_page('portfolio')) echo 'class="nav-selected"'?>
                             href="<?php echo site_url()?>/portfolio">
-                            <li>Portfolio</li>
-                        </a>
-                        <a <?php if(is_page('news')) echo 'class="nav-selected"'?>
+                                Portfolio
+                            </a>
+                        </li>
+                        <li>
+                            <a <?php if(is_page('news')) echo 'class="nav-selected"'?>
                             href="<?php echo site_url()?>/news">
-                            <li>News</li>
-                        </a>
-                        <a <?php if(is_page('contact')) echo 'class="nav-selected"'?>
+                                News
+                            </a>
+                        </li>
+                        <li>
+                            <a <?php if(is_page('contact')) echo 'class="nav-selected"'?>
                             href="<?php echo site_url()?>/contact">
-                            <li>Contact</li>
-                        </a>
+                                Contact
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
