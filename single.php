@@ -1,11 +1,7 @@
 <?php
     get_header();
 ?>
-<div class="banner-div">
-    <!-- dynamic should be loaded from WP -->
-    <img src="<?php echo get_template_directory_uri()?>/img/about-1500.png" class="desktop-img"alt="">
-    <img src="<?php echo get_template_directory_uri()?>/img/about-600.png"class="mobile-img" alt="">
-</div>
+<!-- <h1>single</h1> -->
 <?php
       while(have_posts()) {
             the_post();

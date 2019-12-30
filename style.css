@@ -333,10 +333,6 @@ nav {
   }
 }
 
-#landing-top-slide {
-  display: none;
-}
-
 .landing-card {
   display: flex;
   flex-direction: column;
@@ -781,7 +777,6 @@ html h3 {
 }
 
 .mission-statement {
-  display: none;
   Position: absolute;
   top: 75px;
   width: 100%;
@@ -1529,10 +1524,6 @@ html h3 {
   border-right: 3px solid #5A86BF;
 }
 
-.image-slide {
-  display: none;
-}
-
 @media (min-width: 950px) {
   .mobile-img {
     display: none;
@@ -1561,12 +1552,13 @@ html h3 {
 
 .no-banner-spacer {
   height: 75px;
+  width: 100%;
 }
 
 @media (min-width: 950px) {
   .no-banner-spacer {
-    display: none;
     height: 80px;
+    width: 100%;
   }
 }
 

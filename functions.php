@@ -6,7 +6,8 @@ function bfec_setup() {
      if ($located != '' ) {
           echo '<link rel="stylesheet" href="'.get_template_directory_uri().'/style.min.css" />';
      } else {
-          echo '<link rel="stylesheet" href="'.get_template_directory_uri().'/style.css" />';
+          //echo '<link rel="stylesheet" href="'.get_template_directory_uri().'/style.css" />';
+          echo "<!-- ain't here bro -->";
      }
     //version must change every time we change css, change microtime to 
     //version number after finished developement. 
@@ -77,6 +78,7 @@ function bfec_custom_post_type() {
         'menu-icon' => 'dashicons-clipboard',
         'public' => true,
         'has_archive' => true,
+        'show_in_rest' => true,
         'supports' => array(
             'title', 'thumbnail', 'editor', 'excerpt', 'comments', 'custom-fields'
         )
@@ -94,6 +96,7 @@ function bfec_custom_post_type() {
         'menu-icon' => 'dashicons-clipboard',
         'public' => true,
         'has_archive' => true,
+        'show_in_rest' => true,
         'supports' => array(
             'title', 'thumbnail', 'editor', 'excerpt', 'comments', 'custom-fields'
         ),
