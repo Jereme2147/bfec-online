@@ -1678,6 +1678,7 @@ html h3 {
 @media (min-width: 950px) {
   .single-section {
     width: 85%;
+    max-width: 800px;
   }
 }
 
