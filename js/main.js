@@ -43,28 +43,28 @@ var isInViewport = function (elem) {
         bounding.right <= (window.innerWidth || document.documentElement.clientWidth)
     );
 };
-const imgtest = document.getElementById('imgtest');
-//on scroll, calls the isInViewport function. If image is within the viewport
-//it expands the picture.
-window.addEventListener('scroll', function (event) {
-    const sideLoad = document.getElementsByClassName('side-load');
-    for (let i = 0; i < sideLoad.length; i++) {
-        //checks to see if all images are within viewport. 
-        if (isInViewport(sideLoad[i])) {
-            if(sideLoad[i].style.visibility != 'none'){
-                if(isInViewport(sideLoad[i])){
-                    if(desktop.matches){
-                        //calls only on desktop version
-                        sideLoad[i].style.width = '75%';
-                    } else {
-                        //calls on anything < 600px
-                        sideLoad[i].style.width = '75%';
-                    }
-                }
-            }
-        };
-    }
-});
+// const imgtest = document.getElementById('imgtest');
+// //on scroll, calls the isInViewport function. If image is within the viewport
+// //it expands the picture.
+// window.addEventListener('scroll', function (event) {
+//     const sideLoad = document.getElementsByClassName('side-load');
+//     for (let i = 0; i < sideLoad.length; i++) {
+//         //checks to see if all images are within viewport. 
+//         if (isInViewport(sideLoad[i])) {
+//             if(sideLoad[i].style.visibility != 'none'){
+//                 if(isInViewport(sideLoad[i])){
+//                     if(desktop.matches){
+//                         //calls only on desktop version
+//                         sideLoad[i].style.width = '75%';
+//                     } else {
+//                         //calls on anything < 600px
+//                         sideLoad[i].style.width = '75%';
+//                     }
+//                 }
+//             }
+//         };
+//     }
+// });
 
 // jQuery(document).ready(function($) {
     // $('.image-slide').slideDown('slow');

@@ -1,6 +1,7 @@
 <?php 
     get_header();
 ?>
+
 <div id="landing-top-slide">
     <?php
     //if ( function_exists( 'soliloquy' ) ) { soliloquy( 'front-page', 'slug' ); };
